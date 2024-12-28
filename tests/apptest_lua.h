@@ -81,7 +81,7 @@ class MyEventHandler :
 	static int showGui(lua_State *L);
 	static int isGuiHidden(lua_State *L);
 
-	bool loadScript(LoadMode mode);
+	bool runScript(LoadMode mode);
 };
 
 #endif
